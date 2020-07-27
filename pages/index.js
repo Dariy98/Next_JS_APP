@@ -14,6 +14,8 @@ export default function Home() {
          Home page
         </h1>
         <p>number: {num}</p>
+        <p>my name is Daria</p>
+        <p>Hello!</p>
        </main>
 
       <style jsx>{`
