@@ -16,6 +16,7 @@ export default function Home() {
         <p>number: {num}</p>
         <p>my name is Daria</p>
         <p>Hello!</p>
+        <p>Update for git</p>
        </main>
 
       <style jsx>{`
