@@ -17,7 +17,7 @@ export default function Home() {
           </main>
 
         </div>
-        
+
         <style jsx>{`
         .container {
           min-height: 100vh;
@@ -44,6 +44,7 @@ export default function Home() {
 
         * {
           box-sizing: border-box;
+          font-family: sans-serif;
         }
       `}</style>
     </>

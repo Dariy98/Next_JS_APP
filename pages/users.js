@@ -27,6 +27,7 @@ export default function Users({users}) {
                             justify-content: center;
                             align-items: center;
                             padding-top: 100px;
+                            font-family: sans-serif;
                         }
                     `}</style>
                 </main>
