@@ -1,7 +1,6 @@
 import Nav from '../components/Nav';
 import fetch from 'isomorphic-unfetch';
 
-
 export default function Users({users}) {
     return( 
         <>
