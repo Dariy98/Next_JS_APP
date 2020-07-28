@@ -1,9 +1,14 @@
 import Nav from '../components/Nav';
 import fetch from 'isomorphic-unfetch';
+import Head from 'next/head';
 
 export default function Users({users}) {
     return( 
         <>
+            <Head>
+                <title>Users List</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <Nav/>
 
             <div className="container">
