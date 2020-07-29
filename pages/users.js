@@ -42,8 +42,7 @@ export default function Users({users}) {
     )
 }
 
-
-export async function getStaticProps() {
+export async function getServerSideProps() {
     const response = await fetch("http://www.json-generator.com/api/json/get/cgcEEPXOJK?indent=2")
     const users = await response.json()
 
